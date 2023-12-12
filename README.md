@@ -2,8 +2,8 @@
 
 Name: Farah Hesham
 
-
-
+ 
+###BFS###
 
 
 
@@ -235,9 +235,9 @@ Shortest path found:
 
 
 
-### Maze image
+### Maze image BFS
 
-![alt text](![WhatsApp Image 2023-12-12 at 9 38 55 AM](https://github.com/Farahesham00/bfs-dfs/assets/151152805/05639096-553a-4a15-a2cb-a5c90a52701a)
+![alt text](![WhatsApp Image 2023-12-12 at 9 38 55 AM](https://github.com/Farahesham00/bfs-dfs/assets/151152805/c5904048-0a55-49c9-96aa-1ed595dea152)
 )
 
 
@@ -245,6 +245,39 @@ Shortest path found:
 
 
 
+################################################
 
+###DFS###
+
+as same as bfs but a little bit change
+Depth-first search is a fundamental algorithm in graph theory, and understanding it is essential for solving many graph-based problems. 
+Stacks are a type of container adaptors with LIFO(Last In First Out) type of working, where a new element is added at one end (top) and an element is removed from that end only. 
+
+direction up right down left
+dfs is goes as priorety but in tha same cell
+example: up = 1 , up = 2 , up = 3 "obstacle i up the go to next direction" right = 4
+
+
+
+
+
+
+
+### output DFS
+Path found:
+(0, 0)
+(1, 0)
+(2, 0)
+(3, 0)
+(4, 0)
+(4, 1)
+(4, 2)
+(4, 3)
+(4, 4)
+
+### Maze image DFS
+
+![alt text](![WhatsApp Image 2023-12-12 at 10 01 07 AM](https://github.com/Farahesham00/bfs-dfs/assets/151152805/538973bd-7a6c-4296-855d-baefa6216c6f)
+)
  
  
